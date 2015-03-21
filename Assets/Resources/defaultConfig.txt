@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config version="1">
+	<application>
+		<debug>true</debug>
+        <dataPath>data/EpsonAR.dat</dataPath>
+        <xmlPath>data/EpsonAR.xml</xmlPath>
+ 	</application>
+	<items>
+		<item>
+            <marker>marker1</marker>
+			<title>Epson SureColor SC-T7000</title>
+			<icon>icons/marker1.png</icon>
+			<html_pages>
+				<html_page>
+                    <title>Описание</title>
+                    <path>html/marker1/index.html</path>
+				</html_page>
+				<html_page>
+					<title>Характеристики</title>
+					<path>html/marker1/spec.html</path>
+				</html_page>
+			</html_pages>
+			<models>
+				<model>
+					<title>3D-модель принтера</title>
+					<description>Посмотрите на Epson SureColor SC-T7000 со всех сторон</description>
+                    <path>3d/marker1/Car.obj</path>
+				</model>
+			</models>
+			<videos>
+				<video>
+					<title>Промо-ролик</title>
+					<description>Узнайте, чем замечателен принтер Epson SureColor SC-T7000</description>
+					<path>video/marker1/video1.mp4</path>
+				</video>
+			</videos>
+			<images>
+				<image>
+					<title>Фото</title>
+					<refs>
+						<ref width="512" height="512">images/marker1/image1.png</ref>
+						<ref width="512" height="512">images/marker1/image2.png</ref>
+					</refs>
+				</image>			
+			</images>
+		</item>
+        <item>
+            <marker>marker2</marker>
+            <title>Epson Ultimate printer T900</title>
+            <icon>icons/marker2.png</icon>
+            <html_pages>
+                <html_page>
+                    <title>Описание</title>
+                    <path>html/marker2/index.html</path>
+                </html_page>
+                <html_page>
+                    <title>Характеристики</title>
+                    <path>html/marker2/spec.html</path>
+                </html_page>
+            </html_pages>
+            <models>
+                <model>
+                    <title>3D-модель принтера</title>
+                    <description>Посмотрите на Ultimate Printer T900 со всех сторон</description>
+                    <path>3d/marker2/Pig.obj</path>
+                </model>
+            </models>
+            <videos>
+                <video>
+                    <title>Промо-ролик</title>
+                    <description>Узнайте, чем замечателен принтер Ultimate Printer T900</description>
+                    <path>video/marker2/video2.mp4</path>
+                </video>
+            </videos>
+			<images>
+				<image>
+					<title>Фото</title>
+                    <refs>
+                        <ref width="512" height="512">images/marker2/image1.png</ref>
+                        <ref width="512" height="512">images/marker2/image2.png</ref>
+                    </refs>
+				</image>
+			</images>
+        </item>
+        <item>
+            <marker>marker3</marker>
+            <title>Epson Eye</title>
+            <icon>icons/marker3.png</icon>
+            <html_pages>
+                <html_page>
+                    <title>Описание</title>
+                    <path>html/marker3/index.html</path>
+                </html_page>
+                <html_page>
+                    <title>Характеристики</title>
+                    <path>html/marker3/spec.html</path>
+                </html_page>
+            </html_pages>
+            <models>
+                <model>
+                    <title>3D-модель принтера</title>
+                    <description>Посмотрите на Epson Eye со всех сторон</description>
+                    <path>3d/marker3/Spot.obj</path>
+                </model>
+            </models>
+            <videos>
+                <video>
+                    <title>Промо-ролик</title>
+                    <description>Узнайте, чем замечателен принтер Epson Eye</description>
+                    <path>video/marker3/video3.mp4</path>
+                </video>
+            </videos>
+			<images>
+				<image>
+					<title>Фото</title>
+                    <refs>
+                        <ref width="512" height="512">images/marker3/image1.png</ref>
+                        <ref width="512" height="512">images/marker3/image2.png</ref>
+                    </refs>
+				</image>
+			</images>
+        </item>
+	</items>
+</config>
